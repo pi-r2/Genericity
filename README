@@ -1,0 +1,11 @@
+This repository contains SageMath code to replicate experiments presented in the paper.
+It requires msolve and/or m4gb depending on the field, but can be easily adapted to run with another solver.
+
+The file ```gen-det.sage``` replicates the experiments of Section 6 regarding UOV Jacobian determinantal ideals.
+
+The file ```gen-reg.sage``` replicates the classical experiments verifying that randomly sampled UOV public keys in the right regime generate regular sequences by computing Hilbert series.
+
+The file ```sequence.sage``` implements the construction of Theorem 2, and was used to produce Example 1.
+
+They are all called with ```sage <file>```.
+
